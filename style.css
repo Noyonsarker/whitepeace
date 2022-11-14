@@ -1,0 +1,9 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Inter:wght@400;700&display=swap');
+body{
+    background-color:#043873;
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+}
