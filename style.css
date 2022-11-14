@@ -1,12 +1,14 @@
 /* google font */
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Inter:wght@400;700&display=swap');
 
+
 body {
-    background-color: #bbd9fc;
     color: #fff;
     font-weight: 400;
     font-size: 18px;
     font-family: 'Inter', sans-serif;
+    line-height: 1.7;
+    
 }
 
 .theme-btn {
@@ -14,7 +16,13 @@ body {
     background: #4F9CF9;
     border-radius: 8px;
     padding: 16px 24px !important;
-    margin-left: 24px;
+    text-decoration: none;
+    color: #fff;
+    transition: .5sec;
+}
+
+.theme-btn:hover {
+    color: #FFF;
 }
 
 .theme-btn-two {
@@ -23,7 +31,6 @@ body {
     color: #043873 !important;
     border-radius: 8px;
     padding: 16px 24px !important;
-    margin-left: 24px;
 }
 
 .theme-btn img {
@@ -43,6 +50,19 @@ body {
     padding: 16px 24px !important;
 }
 
+.header-section .navbar-toggler {
+    border: none;
+    box-shadow: none;
+}
+
+.header-section .theme-btn {
+    margin-left: 24px;
+}
+
+.header-section .theme-btn-two {
+    margin-left: 24px;
+}
+
 @media (max-width:991px) {
     .theme-btn {
         width: 100%;
@@ -57,7 +77,54 @@ body {
         margin-left: 0;
         margin-top: 15px;
     }
+    .header-section .theme-btn {
+        margin-left: 0;
+    }
+    
+    .header-section .theme-btn-two {
+        margin-left: 0;
+    }
     .header-section .nav-link {
+        position: relative;
         padding: 16px 0 !important;
+
+    }
+
+    .header-section .nav-link::after {
+        position: absolute;
+        right: 12px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+/* !!! */
+/* !hero css */
+.hero-section{
+    padding: 140px 0;
+    background-image:url(img/Hero-section.png);
+    background-size: cover;
+    background-position: center;
+}
+.hero-section .theme-btn{
+    margin-top: 30px;
+}
+.hero-text h1 {
+    font-weight: 700;
+    font-size: 52px;
+    
+}
+@media (max-width:991px){
+    .hero-section{
+        padding: 80px 0;
+    }
+    .hero-text{
+        text-align: center;
+    }
+    .hero-text h1 {
+        font-size: 36px;
+    }
+    .hero-text .theme-btn{
+        margin-bottom: 50px;
     }
 }
