@@ -180,3 +180,26 @@ body {
 }
 /* !!! */
 
+/* ! */
+.extension-section{
+    padding: 140px 0;
+    background-color: #043873;
+    color: #FFF;
+}
+.extension-section .theme-text h1{
+    font-size: 65px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.extension-section .theme-text p{
+   color: #fff;
+}
+@media (max-width:991px){
+    .extension-section{
+        padding: 80px 0;
+       
+    }
+    .extension-section .theme-btn{
+        margin-bottom: 50px;
+    }
+}
