@@ -203,3 +203,20 @@ body {
         margin-bottom: 50px;
     }
 }
+/* !!! */
+.customise-section{
+    padding: 100px 0;
+}
+@media (max-width:991px){
+    .customise-section{
+        padding: 80px 0;
+    }
+    .customise-section .theme-text h1{
+        font-size: 60px;
+        color: #fff;
+        margin-bottom: 15px;
+    }
+    .customise-section .theme-btn{
+        margin-bottom: 50px;
+    }
+}
