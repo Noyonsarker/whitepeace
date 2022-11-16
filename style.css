@@ -319,3 +319,37 @@ color: #FFE492;
 .your-work-section .theme-text p{
     color: #FFF;
 }
+@media (max-width:991px) {
+    .your-work-section {
+        padding: 80px 0;
+    }
+}
+/* !!! */
+.your-data-section{
+    padding: 140px 0;
+}
+@media (max-width:991px) {
+    .your-data-section {
+        padding: 80px 0;
+    }
+}
+/* !!! */
+.sponcer-section{
+    padding: 140px 0;
+}
+.sponcer-section .theme-text{
+    margin-bottom: 80px;
+}
+.single-sponcer img{
+    height: 55px;
+    width: auto;
+}
+@media (max-width:991px) {
+    .sponcer-section{
+        padding: 80px;
+        padding-bottom: 30px;
+    }
+    .single-sponcer{
+        margin-bottom: 50px;
+    }
+}
