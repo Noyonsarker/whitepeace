@@ -8,18 +8,21 @@ body {
     font-size: 18px;
     font-family: 'Inter', sans-serif;
     line-height: 1.7;
-    
+
 }
-.theme-text h1{
+
+.theme-text h1 {
     font-size: 65px;
     color: #212529;
     margin-bottom: 15px;
 }
-.theme-text h1 span{
+
+.theme-text h1 span {
     position: relative;
     z-index: 1;
 }
-.theme-text h1 span::after{
+
+.theme-text h1 span::after {
     position: absolute;
     content: "";
     width: 100%;
@@ -29,7 +32,8 @@ body {
     z-index: -1;
     background-image: url(img/Element.png);
 }
-.theme-text p{
+
+.theme-text p {
     color: #212529;
 }
 
@@ -42,17 +46,24 @@ body {
     color: #fff;
     transition: .5sec;
 }
-
-.theme-btn:hover {
-    color: #FFF;
-}
-
 .theme-btn-two {
     display: inline-block;
     background: #FFE492;
     color: #043873 !important;
     border-radius: 8px;
     padding: 16px 24px !important;
+}
+.theme-btn-three {
+    display: inline-block;
+    background: #fff;
+    border: 1px solid #FFE492;
+    color: #043873 !important;
+    border-radius: 8px;
+    padding: 16px 24px !important;
+}
+
+.theme-btn:hover {
+    color: #FFF;
 }
 
 .theme-btn img {
@@ -99,13 +110,15 @@ body {
         margin-left: 0;
         margin-top: 15px;
     }
+
     .header-section .theme-btn {
         margin-left: 0;
     }
-    
+
     .header-section .theme-btn-two {
         margin-left: 0;
     }
+
     .header-section .nav-link {
         position: relative;
         padding: 16px 0 !important;
@@ -122,101 +135,174 @@ body {
 
 /* !!! */
 /* !hero css */
-.hero-section{
+.hero-section {
     padding: 140px 0;
-    background-image:url(img/Hero-section.png);
+    background-image: url(img/Hero-section.png);
     background-size: cover;
     background-position: center;
 }
-.hero-section .theme-btn{
+
+.hero-section .theme-btn {
     margin-top: 30px;
 }
+
 .hero-text h1 {
     font-weight: 700;
     font-size: 52px;
-    
+
 }
-@media (max-width:991px){
-    .hero-section{
+
+@media (max-width:991px) {
+    .hero-section {
         padding: 80px 0;
     }
-    .hero-text{
+
+    .hero-text {
         text-align: center;
     }
+
     .hero-text h1 {
         font-size: 36px;
     }
-    .hero-text .theme-btn{
+
+    .hero-text .theme-btn {
         margin-bottom: 50px;
     }
 }
+
 /* !!! */
 /* !manegment-section */
-.manegment-section{
+.manegment-section {
     padding: 140px 0;
 }
-.work-manegment{
+
+.work-manegment {
     margin-top: 100px;
 }
 
-@media (max-width:991px){
-    .manegment-section{
+@media (max-width:991px) {
+    .manegment-section {
         padding: 80px 0;
     }
-    .work-manegment{
+
+    .work-manegment {
         margin-top: 60px;
     }
-    .theme-text{
+
+    .theme-text {
         text-align: center;
     }
-    .theme-text h1{
+
+    .theme-text h1 {
         font-style: 36px;
     }
-    @media (max-width:991px){
-        .manegment-section .theme-btn{
+
+    @media (max-width:991px) {
+        .manegment-section .theme-btn {
             margin-bottom: 50px;
         }
     }
 }
+
 /* !!! */
 
 /* ! */
-.extension-section{
+.extension-section {
     padding: 140px 0;
     background-color: #043873;
     color: #FFF;
 }
-.extension-section .theme-text h1{
+
+.extension-section .theme-text h1 {
     font-size: 65px;
     color: #fff;
     margin-bottom: 15px;
 }
-.extension-section .theme-text p{
-   color: #fff;
+
+.extension-section .theme-text p {
+    color: #fff;
 }
-@media (max-width:991px){
-    .extension-section{
+
+@media (max-width:991px) {
+    .extension-section {
         padding: 80px 0;
-       
+
     }
-    .extension-section .theme-btn{
+
+    .extension-section .theme-btn {
         margin-bottom: 50px;
     }
 }
+
 /* !!! */
-.customise-section{
+.customise-section {
     padding: 100px 0;
 }
-@media (max-width:991px){
-    .customise-section{
+
+@media (max-width:991px) {
+    .customise-section {
         padding: 80px 0;
     }
-    .customise-section .theme-text h1{
-        font-size: 60px;
-        color: #fff;
+
+    .customise-section .theme-text h1 {
+        font-size: 55px;
         margin-bottom: 15px;
     }
-    .customise-section .theme-btn{
+
+    .customise-section .theme-btn {
         margin-bottom: 50px;
+    }
+}
+
+/* !!! */
+.priching-section {
+    padding: 140px 0;
+}
+
+.priching-section .theme-text {
+    margin-bottom: 60px;
+}
+
+.single-pricing {
+    color: #212529;
+    padding: 40px 44px;
+    border: 1px solid #FFE492;
+    border-radius: 10px;
+}
+.single-pricing h4{
+    font-size: 24px;
+    font-weight: 500;
+}
+.single-pricing h2{
+    font-size: 36px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+.single-pricing ul{
+    margin: 25px 0;
+    padding: 0;
+}
+.single-pricing ul li{
+    list-style: none;
+    margin-bottom: 28px;
+}
+.single-pricing ul li:last-child{
+    margin-bottom: 0;
+}
+.special-pricing{
+    padding: 80px 44px;
+    background-color: #043873;
+    color: #fff;
+}
+.special-pricing h2{
+color: #FFE492;
+}
+
+@media (max-width:991px) {
+    .priching-section {
+        padding: 80px 0;
+    }
+    .single-pricing{
+        margin-bottom: 30px;
     }
 }
